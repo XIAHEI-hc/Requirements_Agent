@@ -1,0 +1,30 @@
+[
+  {
+    "id": "pixlab",
+    "name": "PixLab",
+    "aliases": [
+      "像素平台"
+    ],
+    "path": "D:/Projects/paravite_pixlab",
+    "keywords": [
+      "AAE",
+      "原图",
+      "Pipeline"
+    ],
+    "target_branch": "main"
+  },
+  {
+    "id": "probe-platform",
+    "name": "走针平台",
+    "aliases": [
+      "EzProber"
+    ],
+    "path": "D:/Projects/private_probe_platform",
+    "keywords": [
+      "Site",
+      "走针",
+      "针卡"
+    ],
+    "target_branch": "main"
+  }
+]

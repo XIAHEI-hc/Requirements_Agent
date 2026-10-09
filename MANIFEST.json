@@ -1,0 +1,161 @@
+{
+  "package": "Requirements_Agent_Starter",
+  "version": "2.0.0",
+  "raw_input_saved": false,
+  "asset_placement": "显式独立绝对路径，不在工具包或源码中",
+  "scope": "仅需求与进度文档管理，严禁业务代码改造",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "ea42a6b6d1ded885663ecbef1aa0071506ce9e6a8ef650d87933c459b02f5473"
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "433770bb1c954d48eb8d652f529bf285f52ada67e0b0008a786bbc681357a91e"
+    },
+    {
+      "path": "DSH.md",
+      "sha256": "749d6fe3718f91a2e4fd784f0974ca6c1ee94f9c014f8def401828f1e4f54da3"
+    },
+    {
+      "path": "README_先读.md",
+      "sha256": "a1749a7621b9a63377f0e9371acecfe57f35c7f2ace531dfa08b9bf26a0b1a1c"
+    },
+    {
+      "path": "START_HERE_给AI的启动指令.md",
+      "sha256": "88cce6d28697c4d2913edd213e34da6b151f2aa0b8692a9c9972d3c40de9cb26"
+    },
+    {
+      "path": "agent/CORE.md",
+      "sha256": "54568f1b43049f0ae10e48a6075f2432e91914af3d503f12e940ed05d87a01c3"
+    },
+    {
+      "path": "agent/PROHIBITIONS.md",
+      "sha256": "c96f441827bbcb5d352e797127af34906d8f4368b123c8fedc71145f139c5804"
+    },
+    {
+      "path": "agent/ROUTER.md",
+      "sha256": "9866f773d1a6d990e850ace0cbbcfae240b801db2c1c4feac3d83386ecc550d9"
+    },
+    {
+      "path": "config/projects.example.json",
+      "sha256": "1cfaf87ec0717a6819cf4864a16fd564f3492319e49000842fbbd55b1e9abfba"
+    },
+    {
+      "path": "docs/01_首次配置与固定资产.md",
+      "sha256": "4e5d88116fe8cb86b689af8ce99cc704b6465fbe59e818ac3ae80e696685f978"
+    },
+    {
+      "path": "docs/02_目录时间与追溯.md",
+      "sha256": "a43d8dc849f33adc3c76ed805baed665e2cf7054fc1a213f9355140294c8f781"
+    },
+    {
+      "path": "docs/03_进度颜色与每周总汇.md",
+      "sha256": "fd2f0cc1a549495ff5d654cb0dcd1496212263cc6b174df2d701a9058e212d73"
+    },
+    {
+      "path": "docs/04_只读与输出边界.md",
+      "sha256": "735c4a77ab2b7b8d0a81830192766ccf27f2b533a1cbb50cd0b2f596e616734f"
+    },
+    {
+      "path": "docs/05_v1迁移与包升级.md",
+      "sha256": "f3fe339961b997416983c87c4d6d7f30139dfe1afee2543d22f9deba9189a25f"
+    },
+    {
+      "path": "docs/06_工具命令与恢复.md",
+      "sha256": "b2a41fb91b62d4a31b39ee447c3484d520d5890fe6e2354b75c74bbea3562c9f"
+    },
+    {
+      "path": "docs/07_验证记录.md",
+      "sha256": "349fd0ff837d8593a31e8928867408fd20f98a291db5dbfca198931e7a8f1f31"
+    },
+    {
+      "path": "examples/README.md",
+      "sha256": "ad213b7c0acb1ee2d54f0487c135b67ac415df9b29964c5869d96b81684a1b21"
+    },
+    {
+      "path": "examples/demo.py",
+      "sha256": "5a15a47dce99dcefb2c81efe4e5129e3acc207a13c4d7eed88d7365c47d3da36"
+    },
+    {
+      "path": "examples/周总汇示例.md",
+      "sha256": "3d27265084fd45840bbea15c70630caf9db4da308f15b9a155a473b742ea0dd9"
+    },
+    {
+      "path": "scripts/reqmgr.py",
+      "sha256": "c07fb1545211339704e67003e8bc76d634e47f824f9a20e6aca360fdab0d40b6"
+    },
+    {
+      "path": "skills/req-archive/SKILL.md",
+      "sha256": "4d34cbd8b0b0c7e0ac56c47eb0f94e15170abbc3482510dec7a111c60e71b78b"
+    },
+    {
+      "path": "skills/req-archive/agents/openai.yaml",
+      "sha256": "0fa463e85217629cda5a6dd891f8b593fd447e131fa38790ba43d77740ac67fe"
+    },
+    {
+      "path": "skills/req-audit/SKILL.md",
+      "sha256": "3c0ce4f0f617b7f335dca988a26e1c8d82040dff09721b0ac93e681935638aa9"
+    },
+    {
+      "path": "skills/req-audit/agents/openai.yaml",
+      "sha256": "2565821ee3e8121ff15fd8e8746ce26023245f1fe509de11fc15f280bdd02865"
+    },
+    {
+      "path": "skills/req-intake/SKILL.md",
+      "sha256": "c5631daa9e8366116731b39566fb8d779f98326c24f5354372bfcef15050b568"
+    },
+    {
+      "path": "skills/req-intake/agents/openai.yaml",
+      "sha256": "a87d1ead2180357c8f69b077bd3e14f26828d55390d514fa675a7f446aa87794"
+    },
+    {
+      "path": "skills/req-prioritize/SKILL.md",
+      "sha256": "e9c9cb9757d24891146dfad846a96fe204d8da6336a0f29bb7b0febc7db4d216"
+    },
+    {
+      "path": "skills/req-prioritize/agents/openai.yaml",
+      "sha256": "c6599fb6834f054ca8e07592efcd63bd1fdc1f5513c7eb20132d00748fb54684"
+    },
+    {
+      "path": "skills/req-route/SKILL.md",
+      "sha256": "db0efc73a59b5347d18cb3c041f6a40443911183a9b987049ab8a062cf590182"
+    },
+    {
+      "path": "skills/req-route/agents/openai.yaml",
+      "sha256": "43d0cdb0aaa3fe07bcd822feb617bdb49168d993517e92c32b1bb673bf221854"
+    },
+    {
+      "path": "skills/req-source/SKILL.md",
+      "sha256": "d227f3341599977aed6aedf407a77f31537c4da27ae3033e3d6ebb50808165fb"
+    },
+    {
+      "path": "skills/req-source/agents/openai.yaml",
+      "sha256": "f9c0acfe38ee2420352402f0654978c0a8fee34e140c6a9e54eda6a4213d839c"
+    },
+    {
+      "path": "skills/req-weekly/SKILL.md",
+      "sha256": "606e2b77d7043d550883c5711a7e69fa5eab7c849b3295853cf00b136d834abe"
+    },
+    {
+      "path": "skills/req-weekly/agents/openai.yaml",
+      "sha256": "9e20b060976971edca375f823f32d3448a9d25d43a0e1e5ac1ab7f147a4006f4"
+    },
+    {
+      "path": "templates/bundle.example.json",
+      "sha256": "4ce076edd93f5dceb38c11428a943a2ad32ae48e0678faa41df6a4cb6f868b26"
+    },
+    {
+      "path": "templates/需求章节.md",
+      "sha256": "4c661b5988e9173c03031a6cd6b3919439961235f4b52d2ff3e464df497f3040"
+    },
+    {
+      "path": "tests/test_reqmgr.py",
+      "sha256": "6ec5787722415bd11646bdba95ea7db784248459ea8839c9fb0d8033b29e797f"
+    }
+  ]
+}
