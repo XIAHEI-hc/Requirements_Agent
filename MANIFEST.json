@@ -1,9 +1,10 @@
 {
   "package": "Requirements_Agent_Starter",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "raw_input_saved": false,
   "asset_placement": "显式独立绝对路径，不在工具包或源码中",
   "scope": "仅需求与进度文档管理，严禁业务代码改造",
+  "layout": "月/周一至周五/日期-序号-标题.md；项目仅归属字段",
   "files": [
     {
       "path": ".gitignore",
@@ -11,11 +12,11 @@
     },
     {
       "path": "AGENTS.md",
-      "sha256": "ea42a6b6d1ded885663ecbef1aa0071506ce9e6a8ef650d87933c459b02f5473"
+      "sha256": "b67eaf24ba29ea7f6e7308fa400b5d132286bfc292b16afa75fb95454e3aee89"
     },
     {
       "path": "CLAUDE.md",
-      "sha256": "433770bb1c954d48eb8d652f529bf285f52ada67e0b0008a786bbc681357a91e"
+      "sha256": "12a415a80abfc8d0124d9a7b410c81770fd7349f68d206db909c0016dccc8ab8"
     },
     {
       "path": "DSH.md",
@@ -23,23 +24,23 @@
     },
     {
       "path": "README_先读.md",
-      "sha256": "a1749a7621b9a63377f0e9371acecfe57f35c7f2ace531dfa08b9bf26a0b1a1c"
+      "sha256": "2b94117786d3d2d953ee6b4152ee1a56cee33647e9fdb2da93a673f67cb9cf70"
     },
     {
       "path": "START_HERE_给AI的启动指令.md",
-      "sha256": "88cce6d28697c4d2913edd213e34da6b151f2aa0b8692a9c9972d3c40de9cb26"
+      "sha256": "4c137cfd721a42e2aec87fb3fd05f15dfd518664ecbb39f297c081ad75d36105"
     },
     {
       "path": "agent/CORE.md",
-      "sha256": "54568f1b43049f0ae10e48a6075f2432e91914af3d503f12e940ed05d87a01c3"
+      "sha256": "f67f692faeb7821d5a2b843f5c5f9459f18b98105857c0d747d43e0ca981d76b"
     },
     {
       "path": "agent/PROHIBITIONS.md",
-      "sha256": "c96f441827bbcb5d352e797127af34906d8f4368b123c8fedc71145f139c5804"
+      "sha256": "49b2c3be1973c0290a3942ad3a1d1e018bc60a389fde55614e24e975a0e1f756"
     },
     {
       "path": "agent/ROUTER.md",
-      "sha256": "9866f773d1a6d990e850ace0cbbcfae240b801db2c1c4feac3d83386ecc550d9"
+      "sha256": "c67b777b3ce95ccb13fa75bd39a14afc4f2c1a24326cb7b6b405b23efbf0ab7e"
     },
     {
       "path": "config/projects.example.json",
@@ -47,115 +48,127 @@
     },
     {
       "path": "docs/01_首次配置与固定资产.md",
-      "sha256": "4e5d88116fe8cb86b689af8ce99cc704b6465fbe59e818ac3ae80e696685f978"
+      "sha256": "f33110edde2ac128f29e9f53366fe8751a0dd1d5d8384087f84dca35ab1e2b68"
     },
     {
       "path": "docs/02_目录时间与追溯.md",
-      "sha256": "a43d8dc849f33adc3c76ed805baed665e2cf7054fc1a213f9355140294c8f781"
+      "sha256": "3d120c147bac2cf396d795372d06bfd40b840577ad81523cab3291ff9310c330"
     },
     {
       "path": "docs/03_进度颜色与每周总汇.md",
-      "sha256": "fd2f0cc1a549495ff5d654cb0dcd1496212263cc6b174df2d701a9058e212d73"
+      "sha256": "3ac3168f678a40e54ab29721b4aeb8969cf4894a0905306f48cfef0367c46afe"
     },
     {
       "path": "docs/04_只读与输出边界.md",
-      "sha256": "735c4a77ab2b7b8d0a81830192766ccf27f2b533a1cbb50cd0b2f596e616734f"
+      "sha256": "3efeffe8b69d6ff3d1827ab0d14472713e61db14e4264ae649ec3156aed545f1"
     },
     {
       "path": "docs/05_v1迁移与包升级.md",
-      "sha256": "f3fe339961b997416983c87c4d6d7f30139dfe1afee2543d22f9deba9189a25f"
+      "sha256": "f3c2ea58a4e7dc54086ee7dc00df0f5614274150cd13a9d6cb9ac55631f94568"
     },
     {
       "path": "docs/06_工具命令与恢复.md",
-      "sha256": "b2a41fb91b62d4a31b39ee447c3484d520d5890fe6e2354b75c74bbea3562c9f"
+      "sha256": "1b9209c0dca432188c95c16201892510c18427dc6345a575bdcb5d76a976d278"
     },
     {
       "path": "docs/07_验证记录.md",
-      "sha256": "349fd0ff837d8593a31e8928867408fd20f98a291db5dbfca198931e7a8f1f31"
+      "sha256": "2bd0a0cfb87d22eff82be04919ee991ce18a7990c6815e685c7a49631b380172"
     },
     {
       "path": "examples/README.md",
-      "sha256": "ad213b7c0acb1ee2d54f0487c135b67ac415df9b29964c5869d96b81684a1b21"
+      "sha256": "97f2bad99460a8d6ce98a8939e6e638429836f62ebba2637fc458492e3e00e3b"
     },
     {
       "path": "examples/demo.py",
-      "sha256": "5a15a47dce99dcefb2c81efe4e5129e3acc207a13c4d7eed88d7365c47d3da36"
+      "sha256": "da0a612f2602a3916e5d6a693116101b8c9103361bea4c8e0c3f91757ec2a6d2"
     },
     {
       "path": "examples/周总汇示例.md",
-      "sha256": "3d27265084fd45840bbea15c70630caf9db4da308f15b9a155a473b742ea0dd9"
+      "sha256": "a625e305da72988f1bb78efa1f8162284f3118b1a53b70bf4c06c09fe2f73130"
+    },
+    {
+      "path": "examples/大型需求与子项示例.md",
+      "sha256": "dfa8560bc7945dc548de78d2b97494848fcd1e72de420c1612dc622ddf6a2e4e"
     },
     {
       "path": "scripts/reqmgr.py",
-      "sha256": "c07fb1545211339704e67003e8bc76d634e47f824f9a20e6aca360fdab0d40b6"
+      "sha256": "b815cacc9d99f0b129734ac80120c38756c274a838e86cf707d67d69f4beb5ad"
     },
     {
       "path": "skills/req-archive/SKILL.md",
-      "sha256": "4d34cbd8b0b0c7e0ac56c47eb0f94e15170abbc3482510dec7a111c60e71b78b"
+      "sha256": "f7b3e188a20f3dbc3b27536395e1432f44a2c2ea4ffc0041d3dc27b5ab811f82"
     },
     {
       "path": "skills/req-archive/agents/openai.yaml",
-      "sha256": "0fa463e85217629cda5a6dd891f8b593fd447e131fa38790ba43d77740ac67fe"
+      "sha256": "b07ef56d7098972d609e589e240a8cc22ec30fb46243d4fddc58442c800036d9"
     },
     {
       "path": "skills/req-audit/SKILL.md",
-      "sha256": "3c0ce4f0f617b7f335dca988a26e1c8d82040dff09721b0ac93e681935638aa9"
+      "sha256": "1070d3c19a86d41e961f757a9c55c16bd3e77ede3f3dd5360e2b19b4eb6cf905"
     },
     {
       "path": "skills/req-audit/agents/openai.yaml",
-      "sha256": "2565821ee3e8121ff15fd8e8746ce26023245f1fe509de11fc15f280bdd02865"
+      "sha256": "b3f3239925b750103d478f6497a967a9986b02df867b271a52f50b906a34f4d0"
     },
     {
       "path": "skills/req-intake/SKILL.md",
-      "sha256": "c5631daa9e8366116731b39566fb8d779f98326c24f5354372bfcef15050b568"
+      "sha256": "2ca93391f7195f33a0bcf76597716012969013b022100e6899a5d2c8f226dba6"
     },
     {
       "path": "skills/req-intake/agents/openai.yaml",
-      "sha256": "a87d1ead2180357c8f69b077bd3e14f26828d55390d514fa675a7f446aa87794"
+      "sha256": "683a51a4c8302715348ac691975f4cfb4e1776bb465bebfe64fd44f638e12751"
     },
     {
       "path": "skills/req-prioritize/SKILL.md",
-      "sha256": "e9c9cb9757d24891146dfad846a96fe204d8da6336a0f29bb7b0febc7db4d216"
+      "sha256": "368925a7e257edb0b03d4dc92dae7b1c382cbcf5a699afce14e442878d47f9c8"
     },
     {
       "path": "skills/req-prioritize/agents/openai.yaml",
-      "sha256": "c6599fb6834f054ca8e07592efcd63bd1fdc1f5513c7eb20132d00748fb54684"
+      "sha256": "c50156e4551bfe9d105bde56d32d56e2b5d9d7041c3cd072744cdda7cdd6f1eb"
     },
     {
       "path": "skills/req-route/SKILL.md",
-      "sha256": "db0efc73a59b5347d18cb3c041f6a40443911183a9b987049ab8a062cf590182"
+      "sha256": "c2de1b01150606431e070e3220b00f3788fddf3eb28325cf441de6cc3dfbb433"
     },
     {
       "path": "skills/req-route/agents/openai.yaml",
-      "sha256": "43d0cdb0aaa3fe07bcd822feb617bdb49168d993517e92c32b1bb673bf221854"
+      "sha256": "937f97ccf809b715056c9d5314212bcbdc0e453fd46b38206658ec06856e656e"
     },
     {
       "path": "skills/req-source/SKILL.md",
-      "sha256": "d227f3341599977aed6aedf407a77f31537c4da27ae3033e3d6ebb50808165fb"
+      "sha256": "28bc354c6159772dfd7ced9581ac9b28bca7800b2f8be99227241e30ff51eeda"
     },
     {
       "path": "skills/req-source/agents/openai.yaml",
-      "sha256": "f9c0acfe38ee2420352402f0654978c0a8fee34e140c6a9e54eda6a4213d839c"
+      "sha256": "a3ce8b0f75d76be3ded6ebf9098616e4444214529ca35f70bd500858e7790adb"
     },
     {
       "path": "skills/req-weekly/SKILL.md",
-      "sha256": "606e2b77d7043d550883c5711a7e69fa5eab7c849b3295853cf00b136d834abe"
+      "sha256": "a0151cf83025544609761dd45c99c046b9381edfe54ec73c7295d7f50faba66b"
     },
     {
       "path": "skills/req-weekly/agents/openai.yaml",
-      "sha256": "9e20b060976971edca375f823f32d3448a9d25d43a0e1e5ac1ab7f147a4006f4"
+      "sha256": "e0c8ffd40ac0cc6b9390a6a3f228d0ff0b013460549838e2f035beafd7eb0a5c"
     },
     {
       "path": "templates/bundle.example.json",
-      "sha256": "4ce076edd93f5dceb38c11428a943a2ad32ae48e0678faa41df6a4cb6f868b26"
+      "sha256": "dc8424876ddfd2c788350f33d5feaa6c668401d55173bf93411f1d76000ef266"
+    },
+    {
+      "path": "templates/large-requirement.example.json",
+      "sha256": "536643ef14f5e1641e9a377b1c0c1bcd95f259ec84ed877e76f6fd68c88a30a5"
+    },
+    {
+      "path": "templates/update.example.json",
+      "sha256": "5e29a8f5cd46109a464912dc9d4658afb9e7082e410ba4a5e3bb3cf22a5705d5"
     },
     {
       "path": "templates/需求章节.md",
-      "sha256": "4c661b5988e9173c03031a6cd6b3919439961235f4b52d2ff3e464df497f3040"
+      "sha256": "3153e1796a693b5587b0ac80e65b8d9e48d9b13b7440f685143ef94c437ef00a"
     },
     {
       "path": "tests/test_reqmgr.py",
-      "sha256": "6ec5787722415bd11646bdba95ea7db784248459ea8839c9fb0d8033b29e797f"
+      "sha256": "d5bac2a957fd26f843306f446647703dd35b290bc55f6dd25b165dd8d1fecc30"
     }
   ]
 }

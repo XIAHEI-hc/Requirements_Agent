@@ -5,7 +5,6 @@
     {
       "project_id": "pixlab",
       "title": "支持原图双图对比",
-      "status": "待确认",
       "priority": "P2",
       "priority_confirmed": false,
       "source_ids": [],

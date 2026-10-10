@@ -1,4 +1,4 @@
 interface:
-  display_name: "拆分与项目归属"
-  short_description: "只读理解项目并维护独立需求资产，不保存原话，不修改业务代码，记录进度。"
-  default_prompt: "使用 $req-route 管理需求，只写独立资产，不保存原话，严禁代码改造。"
+  display_name: "项目归属与子需求"
+  short_description: "只读理解项目并维护独立需求资产，按工作周登记进度和子项，不保存原话或修改业务代码。"
+  default_prompt: "使用 $req-route 管理工作周需求与子项，只写独立资产，不保存原话，严禁业务代码改造。"

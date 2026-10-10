@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-12T10:00:00+08:00",
+  "time_basis": "平台消息时间",
+  "requirements": [
+    {
+      "id": "20261009-01",
+      "expected_revision": 1,
+      "reason": "登记用户反馈的进度与阻塞原因",
+      "status": "已阻塞",
+      "progress_source": "用户报告",
+      "progress_note": "依赖接口尚未提供；未独立验证",
+      "children": [
+        {
+          "id": "20261009-01-S01",
+          "status": "已解决",
+          "progress_source": "用户报告",
+          "progress_note": "用户报告配置部分已验收；未独立验证",
+          "completion_evidence": [
+            "配置部分验收反馈摘要"
+          ]
+        },
+        {
+          "id": "20261009-01-S02",
+          "status": "已阻塞",
+          "progress_source": "用户报告",
+          "progress_note": "后处理依赖接口尚未提供；未独立验证"
+        }
+      ]
+    }
+  ]
+}
